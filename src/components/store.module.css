@@ -1,0 +1,12 @@
+.load{
+    font-size: 30px;
+    text-align: center;
+}
+.products{
+    margin: 0 50px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}

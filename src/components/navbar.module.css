@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    box-shadow: 0 1px 20px rgb(60, 60, 60);
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+}
+.contpr{
+    font-size: 30px;
+    text-decoration: none;
+    color:#1a73e8;
+    font-weight: 600;
+}
+.contpr:hover{
+    cursor: pointer;
+    color: rgb(36, 36, 228);
+    border-bottom: 4px solid rgb(36, 36, 228);
+}
+.pay{
+    display: flex;
+    flex-wrap: wrap;
+}
+.count{
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: -15px;
+}

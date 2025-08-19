@@ -1,0 +1,80 @@
+.load{
+    font-size: 30px;
+    text-align: center;
+}
+.container{
+    background-color: white;
+    margin: 0 100px;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 20px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    margin: 10px 0 0 10px;
+}
+.details{
+    width: 1150px;
+    font-size: 20px;
+    margin: 35px 0px 0px 20px;
+}
+.details p{
+    margin-bottom: 10px;
+}
+.details p span{
+    font-weight: 800;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+.butt{
+    padding-right: 20px;
+}
+.buttons span{
+    padding-left: 5px;
+}
+.button{
+    margin-left: 4px;
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+    position: relative;
+}
+.button p{
+    font-size: 30px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button p{
+
+}
+.ADD{
+    width: 70px;
+}
+.buttons span{
+    color: #1a73e8;
+    font-weight: 600;
+    margin: 8px;
+}
+.buttons button{
+    user-select: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: #1a73e8;
+    border-radius: 5px;
+}
+.trash{
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    transform: scale(1.4);
+}

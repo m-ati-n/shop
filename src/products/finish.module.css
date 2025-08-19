@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.emty , .pay{
+    background-color: white;
+    border: 2px solid navy;
+    border-radius: 20px;
+    text-align: center;
+    width: 700px;
+    height: 300px;
+}
+.pay p{
+    margin: 70px 0 50px;
+    color: green;
+    font-size: 40px;
+}
+.emty p{
+    margin: 70px 0 50px;
+    color: red;
+    font-size: 40px;
+}
+.emty a , .pay a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.emty div , .pay div{
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    background-color: #1a73e8;
+}
+.emty div:hover , .pay div:hover{
+    box-shadow: 0 0.5px 10px rgb(163, 162, 162);
+    opacity: 0.9;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 7%;
+}
+.finish{
+    position: sticky;
+    top: 150px;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.finish button{
+    margin: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: #1a73e8;
+    border-radius: 5px;
+}
+.finish p{
+    margin-bottom: 10px;
+}
+.finish span{
+    font-weight: 800;
+}
+.finish div{
+    margin-top: 20px;
+}
